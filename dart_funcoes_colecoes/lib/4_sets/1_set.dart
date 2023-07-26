@@ -60,4 +60,7 @@ void main(List<String> args) {
   print(conjuntoNomes2.lookup('Beltrano'));
   print(conjuntoNomes2.lookup('Siclano'));
 
+  print('\n// para retornar um item do conjunto através do indice, deve-se utilizar o método elementAt(index)');
+  print("Segundo nome do conjunto: ${conjuntoNomes1.elementAt(1)}");
+
 }
