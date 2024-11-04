@@ -23,7 +23,9 @@ void main() {
    nomeNulaAtribuicao.isEmpty;
 
    // Ou, faz um teste antes de utilizar a variável
-   String? nomeNulaTeste; 
+   String? nomeNulaTeste;        
+   nomeNulaTeste!.isEmpty;
+
    if( nomeNulaTeste != null ){
        nomeNulaTeste.isEmpty;
    }
